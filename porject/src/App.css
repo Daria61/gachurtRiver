@@ -6,16 +6,16 @@
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+} */
+
+.main{
+  height: 100vh;
 }
-@keyframes mymove {
-  from {top: 0px;}
-  to {top: 200px;}
-}
-.main > section {
+
+/* .main > section {
   height: 100vh;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  animation: mymove 1.5s cubic-bezier(1,.31,0,.71) infinite;
 } */
 
 .call{
@@ -46,6 +46,7 @@
   color: #6FCF97;
   padding-left: 20px;
   transition: all 0.5s;
+  
 }
 .menutran{
   transition: all 1s ;
