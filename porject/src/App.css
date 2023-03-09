@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+body {
+    font-family: "Yeseva One";
+    font-weight: 400;
 }
 
 /* .main{
@@ -56,6 +57,27 @@
 .backimg{
   background-image: url(./img/sectionhome.png) ;
   object-fit: cover;
+}
+.yesava {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.sliderImgContainer {
+    width: 700px;
+    height: 594px;
+    overflow: hidden;
+}
+.sliderImg {
+    width: 700px;
+    height: 594px;
+    transition: all 1s ease-in-out;
+}
+
+.sliderImg:hover {
+    transform: scale(1.1);
 }
 .backGrad{
   background-color: rgb(0, 0, 0, 0.7);

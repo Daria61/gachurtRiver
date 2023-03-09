@@ -3,6 +3,9 @@ import SectionFlooring from '../components/sectionFlooring'
 import SectionHome from '../components/sectionOne'
 import { Scroll } from '../context'
 import { useContext } from 'react'
+import Eco from "../components/Eco";
+import Solar from "../components/Solar";
+import CoolStuff from '../components/CoolStuff-section.js';
 export default function Home() {
 
   const {pageNum, setPageNum} = useContext(Scroll)
@@ -21,8 +24,13 @@ export default function Home() {
     <div className="main">
     <section>{<SectionHome/>}</section>
     <section>{<SectionFlooring  />}</section>
+    <section> <Solar /></section>
+    <section><Eco /></section>
+    <section> <CoolStuff/></section>
     </div>
   )
-}
+
+  }
+
 
 
