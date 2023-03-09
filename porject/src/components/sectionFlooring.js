@@ -6,9 +6,9 @@ export default function SectionFlooring() {
 
   const { pageNum } = useContext(Scroll)
   return (
-    <div>
+    <div className='h-screen relative'>
       {<Menu background="grey"/>}
-         <div className='p-10 flex flex-row justify-between relative'>
+         <div className='p-10 flex flex-row justify-between '>
           <div className='basis-1/2'>
           <img alt="logo" src={require("../img/greylogo.png")} className="w-20"/>
           </div>
@@ -25,12 +25,12 @@ export default function SectionFlooring() {
               <img src={require("../img/houseClil.png")} alt="houseC"/>
               </div>
             </div>
-            <div className='w-3/5 bg-black top-0 right-0 h-screen z-0' >
+            <div className='w-3/5 bg-black top-0 right-0 h-screen z-0 absolute' >
              <div className='flex justify-center mt-32 '>
              <img src={require("../img/floorOne.png")} alt="house" className='w-3/5'/>
              </div>
     
-             <div className='bg-brown w-full  flex flex-row text-white ' style={{backgroundColor: "#9D6156"}}>
+             <div className='bg-brown w-full  flex flex-row  text-white ' style={{backgroundColor: "#9D6156"}}>
               <div className='basis-2/5'>
                 <p>146 m2</p>
               </div>
