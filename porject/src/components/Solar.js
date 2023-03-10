@@ -18,7 +18,7 @@ export default function Solar() {
     ];
 
     return (
-        <div className=" py-16 flex gap-16 mx-auto max-w-[1440px] h-screen flex-wrap">
+        <div className="  flex gap-16 mx-auto p-12 h-screen flex-wrap">
             <div className="max-w-[600px]">
                 <div className="flex">
                     <div className="">

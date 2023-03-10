@@ -1,23 +1,16 @@
-body {
-    font-family: "Yeseva One";
-    font-weight: 400;
-}
-
-/* .main{
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-} */
 
 .main{
   height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
-/* .main > section {
+
+.main > section {
   height: 100vh;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-} */
+}
 
 .call{
   background-color:#9D6156;
@@ -58,7 +51,7 @@ body {
   background-image: url(./img/sectionhome.png) ;
   object-fit: cover;
 }
-.yesava {
+.yesava{
     font-family: "Yeseva One";
     font-style: normal;
     font-weight: 400;
