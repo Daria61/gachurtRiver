@@ -6,7 +6,7 @@ export default function SectionFlooring() {
 
   const { pageNum } = useContext(Scroll)
   return (
-    <div className='h-screen relative'>
+    <div className='h-screen relative ' >
       {<Menu background="grey"/>}
          <div className='p-10 flex flex-row justify-between '>
           <div className='basis-1/2'>
@@ -26,13 +26,20 @@ export default function SectionFlooring() {
               </div>
             </div>
             <div className='w-3/5 bg-black top-0 right-0 h-screen z-0 absolute' >
-             <div className='flex justify-center mt-32 '>
+            <div className='h-4/5'>
+            <div className='flex justify-center mt-32 '>
              <img src={require("../img/floorOne.png")} alt="house" className='w-3/5'/>
              </div>
+             <div className='flex flex-row text-white justify-center  gap-2'>
+              <div style={{backgroundColor: "#9D6156", padding: "8px"}}> First Floor </div>
+              <div><img src={require("../img/arrow.png")} alt="arrow"/> </div>
+              <div style={{backgroundColor: "#9D6156", padding: "8px"}}> Second Floor </div>
+             </div>
+            </div>
     
-             <div className='bg-brown w-full  flex flex-row  text-white ' style={{backgroundColor: "#9D6156"}}>
-              <div className='basis-2/5'>
-                <p>146 m2</p>
+             <div className=' w-fullflex flex-row h-1/5 text-white items-center' style={{backgroundColor: "#9D6156"}}>
+              <div className='basis-2/5 '>
+                <p className='text-[42px]' style={{fontSize: "42px", fontWeight: "500"}}>146 m2</p>
               </div>
               <div className='basis-3/5 flex flex-row'>
                 <div className='basis-1/2'>
