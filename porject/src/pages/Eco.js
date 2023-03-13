@@ -1,5 +1,5 @@
 import React from "react";
-import ImageSliderLeft from "./imageSliderLeft";
+import ImageSliderLeft from "../components/imageSliderLeft";
 
 export default function Eco() {
     const images = [
