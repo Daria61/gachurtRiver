@@ -13,7 +13,7 @@ export default function Menu({background}) {
             <img src={require("../img/menulogo.png")} alt="menulogo" className='m-auto '/>
           </div>
     </div>
-    <div className='bg-black p-12  h-screen w-screen menutran' style={{display: menuDis? 'block': 'none', position: "fixed", top: 0, right: 0, width: menuDis? "100%": 0 , }}>
+    <div className='bg-black p-12  h-screen w-screen menutran z-50' style={{display: menuDis? 'block': 'none', position: "fixed", top: 0, right: 0, width: menuDis? "100%": 0  }}>
       <div className='flex flex-row justify-between'>
         <div className='basis-1/2'>
           <p className='text-white text-xs border-b w-1/12' style={{borderBlockColor: "#9D6156"}}>English</p>
