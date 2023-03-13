@@ -5,6 +5,8 @@ import { Scroll } from "../context";
 import { useContext, useRef } from "react";
 import Eco from "../components/Eco";
 import Solar from "../components/Solar";
+import CoolStuff from '../components/CoolStuff-section.js';
+import View from '../components/view.js'
 import CoolStuff from "../components/CoolStuff-section.js";
 import "../css/scroll.css";
 import Pano from "./pano";
@@ -15,22 +17,29 @@ export default function Home() {
 
     let h = window.innerHeight;
 
-    const scrollHandler1 = () => {
-        if (window.scrollY < h && window.scrollY > 0) {
-            setPage(2);
-        } else if (window.scrollY < 2 * h && window.scrollY > h) {
-            setPage(3);
-        } else if (window.scrollY < 3 * h && window.scrollY > 2 * h) {
-            setPage(4);
-        } else if (window.scrollY < 4 * h && window.scrollY > 3 * h) {
-            setPage(5);
-        }
-        console.log(page);
-        // console.log(window.innerHeight);
-    };
+    // const scrollHandler1 = () => {
+    //     if (window.scrollY < h && window.scrollY > 0) {
+    //         setPage(2);
+    //     } else if (window.scrollY < 2 * h && window.scrollY > h) {
+    //         setPage(3);
+    //     } else if (window.scrollY < 3 * h && window.scrollY > 2 * h) {
+    //         setPage(4);
+    //     } else if (window.scrollY < 4 * h && window.scrollY > 3 * h) {
+    //         setPage(5);
+    //     }
+    //     console.log(page);
+    //     // console.log(window.innerHeight);
+    // };
 
-    window.addEventListener("scroll", scrollHandler1);
+    // window.addEventListener("scroll", scrollHandler1);
 
+  
+
+  // window.addEventListener("scroll", scrollHandle)
+
+
+
+  
     // const { pageNum, setPageNum } = useContext(Scroll);
     // let scrollwhere = useRef(0);
 
