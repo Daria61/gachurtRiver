@@ -5,7 +5,7 @@ export default function View(){
         <>
         <div className='relative h-screen m-0 myViewCard pt-44'>
             <img className=' object-cover w-screen h-full relative z-20' src={require('../imgs/montain.png')}/>
-            <div className="absolute bottom-0 px-32 vector1  py-20 w-full h-full ">
+            <div className="absolute bottom-0 px-32 vector1 overflow-hidden py-20 w-full h-full ">
                  <img className="w-full h-full  relative z-20" src={require('../imgs/Vector 5.png')}/>
                  <img className='circle absolute object-contain z-0' src={require('../imgs/circle.png')}/>
                  <div className="textView flex justify-between h-full w-full absolute top-0 left-0 p-20">

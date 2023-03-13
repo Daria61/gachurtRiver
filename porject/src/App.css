@@ -95,7 +95,7 @@ body {
   transition: 1s;
 }
 
-.vector1:hover {
+.textView:hover .vector1 {
   opacity: 20%;
 }
 
@@ -104,19 +104,19 @@ body {
 }
 
 .circle {
-  transition: 1s;
+  transition: 2s;
   top: 16%;
   width: 70%;
   height: 50%;
   left: 5%;
 }
 
-.vector1:hover .textView {
-  z-index: 0;
+.textView {
+  transition: 2s;
 }
 
-.vector1:hover .circle {
+.textView:hover .circle {
   width: 40%;
   height: 30%;
-  left: 30%;
+  left: 20%;
 }
