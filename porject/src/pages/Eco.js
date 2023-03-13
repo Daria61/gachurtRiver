@@ -27,13 +27,8 @@ export default function Eco() {
                     <div className="flex relative">
                         <img
                             src={require("../images/eco.png")}
-                            alt="Device"
+                            alt="eco"
                             className=""
-                        />
-                        <img
-                            src={require("../images/Interaction MOver.png")}
-                            alt=""
-                            className="absolute bottom-1/4 right-[10px]"
                         />
                     </div>
                 </div>
