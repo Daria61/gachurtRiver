@@ -6,6 +6,8 @@ import { useContext } from 'react'
 import Eco from "../components/Eco";
 import Solar from "../components/Solar";
 import CoolStuff from '../components/CoolStuff-section.js';
+import View from '../components/view.js'
+
 export default function Home() {
 
   const {pageNum, setPageNum} = useContext(Scroll)
@@ -27,6 +29,7 @@ export default function Home() {
     <section> <Solar /></section>
     <section><Eco /></section>
     <section> <CoolStuff/></section>
+    <section> <View/></section>
     </div>
   )
 
