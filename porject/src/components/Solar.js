@@ -18,29 +18,19 @@ export default function Solar() {
     ];
 
     return (
-        <div className=" py-16 flex gap-16 mx-auto max-w-[1440px] h-screen flex-wrap">
+        <div className="  py-16 flex gap-16 mx-auto max-w-[1440px] h-screen flex-wrap">
             <div className="max-w-[600px]">
                 <div className="flex">
-                    <div className="">
+                    <div className="pb-32">
                         <img
-                            src={require("../images/solar-small-img-1.png")}
-                            alt="logo"
-                        />
-                        <img
-                            src={require("../images/solars-small-img-2.png")}
+                            src={require("../images//Group 38.png")}
                             alt="logo"
                         />
                     </div>
-                    <div className="flex relative">
+                    <div className="pt-32">
                         <img
-                            src={require("../images/Huawei-device.png")}
-                            alt="Device"
-                            className=""
-                        />
-                        <img
-                            src={require("../images/Interaction MOver.png")}
-                            alt=""
-                            className="absolute bottom-1/4 right-[10px]"
+                            src={require("../images/Group 39.png")}
+                            alt="logo"
                         />
                     </div>
                 </div>
