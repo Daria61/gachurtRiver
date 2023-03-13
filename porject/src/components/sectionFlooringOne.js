@@ -4,8 +4,8 @@ export default function SectionFlooring() {
   const [floor, setFloor] = useState(true)
 
   return (
-      <div className='w-3/5 bg-black top-0 right-0 h-screen  z-0 absolute' >
-        <div className='h-4/5 overflow-hidden'>
+      <div className='w-3/5 bg-black top-0 right-0 h-screen  z-0  absolute' >
+        <div className='h-4/5 overflow-hidden '>
             <div className='flex justify-center mt-32'>
               <img src={floor? require("../img/floorOne.png"):require("../img/floortwo.png") } alt="house" className='w-3/5 '/>
             </div>

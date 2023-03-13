@@ -13,7 +13,7 @@ export default function ImageSliderLeft({ images }) {
 
     return (
         <div>
-            <div className="relative flex pl-16 pt-16 max-w-[700px] h-full align-middle">
+            <div className="relative flex  align-middle">
                 <div className="sliderImgContainer z-10 ">
                     <img
                         src={images[imageIndex]?.original}

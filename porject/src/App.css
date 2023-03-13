@@ -1,7 +1,4 @@
-body {
-  font-family: "Yeseva One";
-  font-weight: 400;
-}
+
 
 .main {
   height: 100vh;
@@ -126,9 +123,4 @@ body {
 
 .backGrad {
   background-color: rgb(0, 0, 0, 0.7);
-}
-
-#panorama {
-  width: 100vw;
-  height: 100vh;
 }

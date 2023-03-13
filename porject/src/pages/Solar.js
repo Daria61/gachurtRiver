@@ -18,8 +18,8 @@ export default function Solar() {
     ];
 
     return (
-        <div className="  py-16 flex gap-16 mx-auto max-w-[1440px] h-screen flex-wrap">
-            <div className="max-w-[600px]">
+        <div className=" flex flex-row  h-screen flex-wrap pt-12">
+            <div className="basis-2/5 p-12">
                 <div className="flex">
                     <div className="pb-32">
                         <img
@@ -34,8 +34,8 @@ export default function Solar() {
                         />
                     </div>
                 </div>
-                <div className="text-8xl py-1 yesava">Empowered</div>
-                <div className="text-4xl py-1 yesava">
+                <div className=" py-1 yesava">Empowered</div>
+                <div className=" py-1 yesava">
                     By <div className="text-[#6FCF97] inline">CRD</div> Smart
                     Solar System
                 </div>
@@ -46,7 +46,7 @@ export default function Solar() {
                     cutting-edge technology
                 </div>
             </div>
-            <div className="max-w-[700px]">
+            <div className="basis-2/5 p-12">
                 {<ImageSlideShow images={images} />}
             </div>
         </div>

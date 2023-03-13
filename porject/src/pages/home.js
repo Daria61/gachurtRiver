@@ -1,20 +1,17 @@
 import React, { useState } from "react";
-import SectionFlooring from "../components/sectionFlooring";
+import SectionFlooring from "../components/sectionFlooringOne";
 import SectionHome from "../components/sectionOne";
-import { Scroll } from "../context";
-import { useContext, useRef } from "react";
-import Eco from "../components/Eco";
-import Solar from "../components/Solar";
-import CoolStuff from '../components/CoolStuff-section.js';
-import View from '../components/view.js'
+import Eco from "../pages/Eco";
+import Solar from "../pages/Solar";
+import CoolStuff from '../pages/CoolStuff';
+import View from '../pages/view'
 import "../css/scroll.css";
-import Pano from "./pano";
-import Gallery from "../components/Gallery";
+import Gallery from "../pages/Gallery";
+import "../App.css"
+import Floor from "../components/showfirst"
 
 export default function Home() {
-    const [page, setPage] = useState(1);
 
-    let h = window.innerHeight;
 
     // const scrollHandler1 = () => {
     //     if (window.scrollY < h && window.scrollY > 0) {
@@ -53,19 +50,12 @@ export default function Home() {
     return (
         <div className="main">
             <section>{<SectionHome />}</section>
-            <section className={page == 2 ? "slide-in-bottom" : ""}>
-                <Solar />
-            </section>
-            <section className={page == 3 ? "slide-in-bottom" : ""}>
-                <Eco />
-            </section>
-            <section className={page == 4 ? "slide-in-bottom" : ""}>
-                <CoolStuff />
-            </section>
-            <section className={page == 5 ? "slide-in-bottom" : ""}>
-                {<SectionFlooring />}
-            </section>
-            <Gallery />
+            <section><Solar /> </section>
+            <section ><Eco /></section>
+            <section ><CoolStuff /></section>
+            <section > <Floor /> </section>
+            <section><Gallery /></section>
+            <section><View/></section>
         </div>
     );
 }
