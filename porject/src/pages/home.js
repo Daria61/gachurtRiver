@@ -7,7 +7,6 @@ import Eco from "../components/Eco";
 import Solar from "../components/Solar";
 import CoolStuff from '../components/CoolStuff-section.js';
 import View from '../components/view.js'
-import CoolStuff from "../components/CoolStuff-section.js";
 import "../css/scroll.css";
 import Pano from "./pano";
 import Gallery from "../components/Gallery";

@@ -1,5 +1,5 @@
 import React from "react";
-import ImageSlideShow from "./ImageSlideShow";
+import ImageSlideShow from "../components/ImageSlideShow";
 
 export default function Solar() {
     const images = [
